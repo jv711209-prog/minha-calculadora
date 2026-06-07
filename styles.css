@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f2f5;
+}
+
+.container-calc {
+    margin: 100px auto 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botoes {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.linha {
+    display: table-row;
+}
+
+button {
+    display: table-cell;
+    width: 22%;
+    padding: 15px 0;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #d4d4d4;
+}
+
+button.operador {
+    background-color: #ff9500;
+    color: white;
+}
+
+button.operador:hover {
+    background-color: #e08500;
+}
+
+button.limpar {
+    background-color: #ff3b30;
+    color: white;
+}
+
+button.limpar:hover {
+    background-color: #d32f2f;
+}
+
+button.igual {
+    background-color: #34c759;
+    color: white;
+}
+
+button.igual:hover {
+    background-color: #28a745;
+}
